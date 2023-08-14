@@ -219,5 +219,16 @@ a[href="https://kakaocorp.com"]{
 	bottom: 10vh;
 }
 
+/* ! display : 요소를 화면에 어떻게 표현할지 결정 */
+/* ! block : 요소가 한줄 전체를 차지하게 함(width, height 조정이 가능) */
+/* ! inline : 요소가 내용 크기 만큼만 차지하게 함 (width, height 조정이 불가능) */
+/* ! inline-block : 요소가 내용 크기 만큼만 차지하게함 (width, height 조정이 가능)  */
+/* ! none : 요소를 표시하지 않음 */
+/* ! flex : 요소의 내용을 유연하게 표시함 (width, height 조정이 가능 / 한줄 전체를 차지함) */
 
-
+.display{
+	background-color: cornsilk;
+	display: block;
+	width: 200px;
+	height: 200px;
+}
