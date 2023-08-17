@@ -1,0 +1,9 @@
+node.js 검색 LTS 안정된 버전
+
+
+
+node --version
+
+npm --version
+
+npx --version
