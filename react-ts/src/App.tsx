@@ -6,6 +6,7 @@ import Sub from './View/Sub';
 import { useState } from "react";
 import Header from 'layout/Header';
 import Footer from 'layout/Footer';
+import Search from 'View/Search';
 
 function App() {
 
@@ -16,10 +17,11 @@ function App() {
   return (
     <>
       <Header />
-      <h1>{pathname}</h1>
+      {/* <h1>{pathname}</h1> */}
       <Routes>
         <Route path='/main' element={<Main setPage={setPage} />} />
         <Route path='/sub' element={<Sub />} />
+        <Route path='/search/:word' element={<Search />} />
       </Routes>
       <Footer />
     </>
